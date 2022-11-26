@@ -6,7 +6,6 @@ import { NextPageWithLayout } from '../models'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPageWithLayout = () => {
-  //hello
   return (
     <div className={styles.container}>
       <Head>
