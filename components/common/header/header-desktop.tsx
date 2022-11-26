@@ -11,7 +11,7 @@ export default function HeaderDesktop(props: IHeaderDesktopProps) {
                         <div id="header-logo" className="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                             <h1 id="logo">
                                 <a href="#">
-                                    <img src="images/logo.png" alt="Xổ Số Đại Phát" />
+                                    <img src="images/xxquanglinh.png" alt="Xổ Số Đại Phát" />
                                 </a>
                             </h1>
                         </div>
