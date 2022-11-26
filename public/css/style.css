@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'utm_helvetinsregular';
-    src: url('/font/utm_helvetins.eot');
-    src: url('/font/utm_helvetins.eot?#iefix') format('embedded-opentype'),
-         url('/font/utm_helvetins.woff2') format('woff2'),
-         url('/font/utm_helvetins.woff') format('woff'),
-         url('/font/utm_helvetins.ttf') format('truetype'),
-         url('/font/utm_helvetins.svg#utm_helvetinsregular') format('svg');
+    src: url('../font/utm_helvetins.eot');
+    src: url('../font/utm_helvetins.eot?#iefix') format('embedded-opentype'),
+         url('../font/utm_helvetins.woff2') format('woff2'),
+         url('../font/utm_helvetins.woff') format('woff'),
+         url('../font/utm_helvetins.ttf') format('truetype'),
+         url('../font/utm_helvetins.svg#utm_helvetinsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -116,7 +116,7 @@ h5.widget-mini-header{
     text-align:center;
 }
 #dmenu li#home a{
-    background:url('/images/home.png') no-repeat scroll center 8px transparent;
+    background:url('../images/home.png') no-repeat scroll center 8px transparent;
     text-indent:-9999px;
     margin-left:0;
     width:50px;
@@ -157,13 +157,13 @@ h5.widget-mini-header{
     position: relative;
 }
 #dmenu ul.mainnav li.level0 > div.wrap_submenu ul.level0 > li.has-child{
-    background:url('/images/arrow.png') no-repeat scroll right center transparent;
+    background:url('../images/arrow.png') no-repeat scroll right center transparent;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 #dmenu ul.mainnav li.level0 > div.wrap_submenu ul.level0 > li.has-child:hover{
-    background:url('/images/arrow-hover.png') no-repeat scroll right center transparent;
+    background:url('../images/arrow-hover.png') no-repeat scroll right center transparent;
 }
 #dmenu ul.mainnav li.level0 > div.wrap_submenu ul.level0 > li li {
     position: relative;
@@ -354,7 +354,7 @@ h5.widget-mini-header{
     margin:0;
 }
 .btn-navbar{
-    background:url('/images/mmenu.png') no-repeat scroll 0 0 transparent;
+    background:url('../images/mmenu.png') no-repeat scroll 0 0 transparent;
     width:21px;
     height:17px;
     cursor: pointer;
@@ -379,14 +379,14 @@ h5.widget-mini-header{
 }
 .fa-plus::before{
     content:"";
-    background:url('/images/plus.png') no-repeat scroll 0 5px transparent;
+    background:url('../images/plus.png') no-repeat scroll 0 5px transparent;
     width:32px;
     height:32px;
     display:block;
 }
 .fa-minus::before{
     content:"";
-    background:url('/images/minus.png') no-repeat scroll 0 15px transparent;
+    background:url('../images/minus.png') no-repeat scroll 0 15px transparent;
     width:32px;
     height:32px;
     display:block;
@@ -568,10 +568,10 @@ h5.widget-mini-header{
     margin-right: 5px !important;
 }
 .ui-icon-circle-triangle-w{
-    background:transparent url("/images/cldleft.png") no-repeat scroll 3px 7px !important;
+    background:transparent url("../images/cldleft.png") no-repeat scroll 3px 7px !important;
 }
 .ui-icon-circle-triangle-e{
-    background:transparent url("/images/cldright.png") no-repeat scroll 3px 7px !important;
+    background:transparent url("../images/cldright.png") no-repeat scroll 3px 7px !important;
 }
 .ui-state-hover,
 .ui-widget-content .ui-state-hover,
@@ -976,18 +976,18 @@ ul.sub-menu-side {
 .sub-menu-side li span {
     width: 15px;
     height: 15px;
-    /*background: url(/images/sprite.png) 0px 0px no-repeat;*/
+    /*background: url(../images/sprite.png) 0px 0px no-repeat;*/
     float: left; 
     margin: 4px 10px 0 0; 
 }
 .sub-menu-side li .loading {
-    background: url(/images/sprite.png) 0px 0px no-repeat;
+    background: url(../images/sprite.png) 0px 0px no-repeat;
 }
 .sub-menu-side li .new {
-    background: url(/images/sprite.png) 0px -23px no-repeat;
+    background: url(../images/sprite.png) 0px -23px no-repeat;
 }
 .sub-menu-side li .waiting {
-    background: url(/images/sprite.png) 0px -47px no-repeat;
+    background: url(../images/sprite.png) 0px -47px no-repeat;
 }
 .statis-content .sub-menu-side li:before{
     content: "•";
@@ -1494,7 +1494,7 @@ li p.icon-status img {
     margin-left: 10px;
 } 
 .bkq123 div.bool, .bkq636 div.bool, .kqsxdt-tt div.bool, .kqxs-chart div.bool{
-    background-image: url(/images/glass-balls-40px.png);
+    background-image: url(../images/glass-balls-40px.png);
     background-repeat: no-repeat;
     font-size: 20px;
     height: 42px;
